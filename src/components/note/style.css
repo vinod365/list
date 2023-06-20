@@ -1,0 +1,52 @@
+.note {
+    background-color:#f6f6f6;
+    border-radius: 12px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 2px solid grey;
+    position: relative;
+}
+
+.description {
+    padding-bottom: 10px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin: 0px;
+    padding: 10px;
+}
+
+.heading p {
+    overflow: hidden;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+.description p {
+    height: 120px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.description p {
+    padding: 10px;
+}
+
+.delete img {
+    width: 20px;
+    
+}
+
+.delete {
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    
+}
